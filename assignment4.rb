@@ -1,20 +1,8 @@
-how much hours do you work?
+puts"hours of work per week"
 hours=gets.to_i
-radius=hours/2
-puts”the radius is#{radius}
-=>40
-
-how much do you make per hour?
-$=gets.to_i
-radius=$/2
-puts”the radius is#{radius}
-=>20
-
-how many weeks did you work?
-weeksr=gets.to_i
-radius=weeks/2
-puts”the radius is#{radius}
-=>10
-
-you will make $8000.
-=>nil
+put"how much do you make per hour"
+money=gets.to_i
+puts"how many weeks"
+week= gets.to_i
+ammount=hours*money*week
+puts"the final ammount you made is #{ammount}"
